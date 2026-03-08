@@ -1,8 +1,8 @@
 # Hi I'm Buay 
-💻 Software Developer
-🌱 Currently learning Web Development  
-🚀 Working on my Portfolio
-
+- 💻 Software Developer
+- 🌱 Currently learning Web Development  
+- 🚀 Working on my Portfolio
+- 🎯 Goal : Become a professional frontend developer
 ---
 
 ## My Skills
@@ -11,10 +11,10 @@
 ![HTML](https://skillicons.dev/icons?i=html,css,js,python,git,github,vscode)
 
 ### Frontend
-HTML | CSS | JavaScript
+- HTML | CSS | JavaScript
 
 ### Backend
-Python | Node.js
+- Python | Node.js
 
 ---
 
