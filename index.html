@@ -1,97 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>John Buay | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav>
-       <div>
-    <h1>John Buay</h1>
-    <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skill">Skill</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-        </div>
-    </nav>
+  <nav>
+    <div class="nav-container">
+      <div class="logo">John Buay</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="menu-toggle" id="menuToggle">☰</button>
+    </div>
+  </nav>
 
+  <section class="hero">
+    <div>
+      <h1>John Buay</h1>
+      <p style="font-size:1.4rem; margin:1.5rem 0;">Hi, I'm John Buay 👋</p>
+      <p style="font-size:1.2rem; max-width:600px; margin:0 auto 2rem;">A passionate junior web developer based in Nairobi, Kenya.</p>
+      <a href="projects.html" style="background:#2563eb;color:white;padding:14px 36px;border-radius:50px;text-decoration:none;">View My Projects</a>
+    </div>
+  </section>
 
-
-    <section id="about">
-    
-        <div>
-            <img 
-                src="https://i.pravatar.githubusercontent.com/u/122380441?v=4"
-                alt="profile picture of John Buay">
-        </div>
-
-        <div>
-            <h2>Hi, I am John👋</h2>
-            <p>i'm a passionate webdeveloper based in nairobi, kenya.</P>
-           <P>I love building beautiful website and web applications that solve real-world problems.</p>
-        </div>
-    </section>
-
-
-    <section id="skill">
-        <div>
-            <h2>my skills</h2>
-        </div> 
-
-        <div>
-            <div>♓</div>
-            <h3>HTML</h3>
-            <p>semantic markup and page structure</p>
-        </div>
-
-        <div>
-            <div>🎨</div>
-            <h3>CSS</h3>
-            <p>styling, layout and animations</p>
-        </div>
-           <div> 
-            <div>⚡</div>
-            <h3>JavaScript</h3>
-            <p>Interactive features and logic</p>
-        </div>
-        
-        <div> 
-            <div>📱</div>
-            <h3>Responsive Design</h3>
-            <p>Gift-yours websites</p>
-        </div>
-    
-    </section>
-
-    <section id="contact">
-            <h2>contact me</h2>
-            <form>
-                 <div>
-                    <label>Name:</label>
-                    <input type="text" placeholder="your name"> 
-                </div>
-
-                <div>
-                    <label>Email:</label>
-                    <input type="email" placeholder="your email">
-                </div>
-
-                <div>
-                    <label>Message:</label>
-                    <textarea placeholder=" write your message here"></textarea>
-                </div>
-
-                <button type="submit">Send Message</button>
-            </form>
-        </section>
-
-        
-        <footer>
-            <p>@ 2025 john doe. Built with ❤ and Tailwind css</p>
-        </footer>
-        </body>
-
-        </html>
+  <script>
+    document.getElementById('menuToggle').addEventListener('click', () => {
+      document.getElementById('navLinks').classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
